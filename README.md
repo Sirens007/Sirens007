@@ -6,16 +6,19 @@
 
 ## Github Stats  
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sirens007&theme=2077)
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sirens007&theme=2077" alt="Stats" />
+</p>
 
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sirens007&theme=github&utcOffset=8)
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sirens007&theme=github&utcOffset=8" alt="Productive Time" />
+</p>
 
 <h2>⚙️ Languages</h2>
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sirens007&hide=&card_width=542&langs_count=10&layout=compact" alt="Languages"/>
 </p>   
-
 <div align="center">
-    <img src="avater.gif" alt="hi" width="100" height="100">
+    <img src="avatar.gif" alt="hi" width="390" height="360">
 </div>
 
