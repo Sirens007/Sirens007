@@ -20,28 +20,12 @@ jobs:
           # 基础信息（一定要有）
           user: Sirens007
           template: classic
-          base: header, activity, community, repositories
+          base: header, activity, community
 
-          # 编程语言统计（最常用）
-          plugin_languages: yes
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 8
-
-          # 提交习惯与活跃度
-          plugin_habits: yes
-          plugin_habits_days: 14
-          plugin_habits_facts: yes
-          plugin_habits_charts: yes
+          plugin_repositories: yes
+          plugin_repositories_affiliations: owner
+          plugin_repositories_limit: 100
 
           # 等距提交日历（好看且直观）
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
-
-          # 成就系统（适合 Profile 展示）
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: yes
-          plugin_achievements_display: detailed
-
-          # 关注与社区互动
-          plugin_followup: yes
