@@ -4,21 +4,6 @@
   <img src="https://count.getloli.com/@Sirens007?name=Sirens007&theme=booru-lisu&padding=8&offset=0&align=top&scale=0.5&pixelated=1&darkmode=auto" alt="Visitor Count">
 </p>
 
-## Github Stats  
+![Sirens007](https://count.getloli.com/@Sirens007)
 
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=Sirens007&theme=2077" alt="Stats" />
-</p>
-
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sirens007&theme=github&utcOffset=8" alt="Productive Time" />
-</p>
-
-<h2>⚙️ Languages</h2>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sirens007&hide=&card_width=542&langs_count=10&layout=compact" alt="Languages"/>
-</p>   
-<div align="center">
-    <img src="avatar.gif" alt="hi" width="390" height="360">
-</div>
-
+![Metrics](./metrics.svg)
