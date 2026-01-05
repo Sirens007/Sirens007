@@ -23,8 +23,11 @@ jobs:
           base: header, activity, community
 
           plugin_repositories: yes
-          plugin_repositories_affiliations: owner
-          plugin_repositories_limit: 100
+          plugin_repositories_featured:
+            - Sirens007/MyStorage
+            - Sirens007/Sirens007.github.io
+            - Sirens007/Sirens007
+
 
           # 等距提交日历（好看且直观）
           plugin_isocalendar: yes
