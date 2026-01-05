@@ -2,6 +2,8 @@ name: Metrics
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 permissions:
   contents: write
@@ -14,3 +16,43 @@ jobs:
         uses: lowlighter/metrics@v3.34
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+
+          # 基础信息（一定要有）
+          user: Sirens007
+          template: classic
+          base: header, activity, community, repositories
+
+          # 编程语言统计（最常用）
+          plugin_languages: yes
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 8
+
+          # 提交习惯与活跃度
+          plugin_habits: yes
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+          # 等距提交日历（好看且直观）
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+
+          # 成就系统（适合 Profile 展示）
+          plugin_achievements: yes
+          plugin_achievements_threshold: C
+          plugin_achievements_secrets: yes
+          plugin_achievements_display: detailed
+
+          # 关注与社区互动
+          plugin_followup: yes
+
+          #等距提交日历
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+          html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+          gnuplot
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_limit: 4
