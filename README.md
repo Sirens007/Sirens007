@@ -2,4 +2,5 @@
 
 ![Sirens007](https://count.getloli.com/@Sirens007)
 
-![Metrics](./metrics.svg)
+![Metrics](./github-metrics.svg)
+
